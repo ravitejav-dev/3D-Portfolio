@@ -7,9 +7,6 @@ AI & LLM Software Engineer (3.5+ years) building reliable AI infrastructure acro
 ---
 
 ![Hero](public/images/screenshot-hero.png)
-
-![Projects](public/images/screenshot-projects.png)
-
 ---
 
 Built with React, TypeScript, Three.js, GSAP, and deployed on Vercel.
