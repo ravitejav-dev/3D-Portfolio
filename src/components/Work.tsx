@@ -5,32 +5,32 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
+    title: "Agentic AI Eval Platform",
+    category: "Multi-Agent LLM Evaluation System",
+    tools: "LLM Evaluation, Multi-Agent Orchestration, Human-in-the-Loop",
     image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    link: "#",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
+    title: "AI Developer Tooling",
+    category: "AI-Native Debugging & Validation",
+    tools: "Config Validation, Log Analysis, Structured AI Reasoning",
     image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    link: "#",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
+    title: "CrowdCompute Plugins",
+    category: "Annotation & Data Collection Platform",
+    tools: "Google AI, Data Pipelines, Quality Assurance, Task Specs",
     image: "/images/broki.png",
-    link: "https://broki.in",
+    link: "#",
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
+    title: "Synthetic Data Pipelines",
+    category: "Scalable Test Data Generation",
+    tools: "Pipeline Automation, Docker, YAML, Schema Validation",
     image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    link: "#",
   },
 ];
 

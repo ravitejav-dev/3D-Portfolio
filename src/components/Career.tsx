@@ -15,58 +15,45 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Software Engineer</h4>
+                <h5>GlobalLogic · Santa Clara</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Building CrowdCompute plugins and annotation templates for Google
+              AI teams. Designing task specs, implementing guardrails, and
+              automating test data environments. Reduced evaluation setup time
+              by ~80% through synthetic data pipelines.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Game Developer</h4>
+                <h5>MassDigi at WPI · Worcester, MA</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2023</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Built AI-driven NPC behavior systems in Unity (C#) using state
+              machines and behavior trees. Created debugging/iteration tooling
+              and improved runtime stability through profiling and optimizations.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Software Engineer</h4>
+                <h5>Wells Fargo · Hyderabad, India</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2021–22</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
-              </div>
-              <h3>2013-16</h3>
-            </div>
-            <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Built and maintained backend services and APIs on AWS using Python.
+              Developed SQL queries, stored procedures, and data fixes in SQL
+              Server. Delivered batch and integration workflows in Python and
+              .NET with idempotent processing and safe failure handling.
             </p>
           </div>
         </div>

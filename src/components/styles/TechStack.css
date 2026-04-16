@@ -1,0 +1,223 @@
+.techstack {
+  padding: 6rem 4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.techstack h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 4rem;
+  letter-spacing: -0.02em;
+  position: relative;
+  z-index: 1;
+  /* Reset any inherited absolute/fixed positioning */
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  transform: none;
+}
+
+/* Skill categories grid */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.tech-category {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.4s ease, transform 0.4s ease;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.tech-category.tech-visible {
+  animation: categorySlideIn 0.6s ease forwards;
+}
+
+.tech-category:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-4px);
+}
+
+.tech-category::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(100, 255, 218, 0.3), transparent);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.tech-category:hover::before {
+  opacity: 1;
+}
+
+@keyframes categorySlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tech-category-title {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: rgba(100, 255, 218, 0.7);
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease;
+  cursor: default;
+  opacity: 0;
+  transform: translateY(12px) scale(0.95);
+}
+
+.tech-tag.tech-tag-visible {
+  animation: tagPopIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.tech-tag:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(100, 255, 218, 0.3);
+  color: #fff;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 20px rgba(100, 255, 218, 0.1);
+}
+
+.tech-tag-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+@keyframes tagPopIn {
+  0% {
+    opacity: 0;
+    transform: translateY(12px) scale(0.95);
+  }
+  60% {
+    transform: translateY(-3px) scale(1.02);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Scrolling marquee section */
+.tech-marquee-section {
+  margin-top: 3.5rem;
+  position: relative;
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, black 10%, black 90%, transparent);
+}
+
+.tech-marquee {
+  display: flex;
+  gap: 1.5rem;
+  animation: marqueeScroll 30s linear infinite;
+  width: max-content;
+}
+
+.tech-marquee:hover {
+  animation-play-state: paused;
+}
+
+.tech-marquee-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.tech-marquee-item:hover {
+  color: rgba(255, 255, 255, 0.85);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.tech-marquee-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(100, 255, 218, 0.4);
+  flex-shrink: 0;
+}
+
+@keyframes marqueeScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .techstack {
+    padding: 4rem 1.5rem;
+  }
+
+  .tech-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .tech-category {
+    padding: 1.5rem;
+  }
+
+  .techstack h2 {
+    margin-bottom: 2.5rem;
+  }
+}

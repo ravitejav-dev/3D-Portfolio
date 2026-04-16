@@ -30,6 +30,83 @@
   letter-spacing: 1px;
 }
 
+/* Seeking roles badge */
+.about-seeking {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: rgba(100, 255, 218, 0.06);
+  border: 1px solid rgba(100, 255, 218, 0.15);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--accentColor);
+  margin-top: 24px;
+  letter-spacing: 0.02em;
+  animation: seekingGlow 3s ease-in-out infinite;
+}
+
+.seeking-pulse {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accentColor);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.seeking-pulse::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid var(--accentColor);
+  opacity: 0;
+  animation: pulseRing 2s ease-out infinite;
+}
+
+@keyframes pulseRing {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+@keyframes seekingGlow {
+  0%, 100% {
+    box-shadow: 0 0 0 rgba(100, 255, 218, 0);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(100, 255, 218, 0.08);
+  }
+}
+
+/* Location/education bar */
+.about-location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.45);
+  font-weight: 400;
+  flex-wrap: wrap;
+}
+
+.loc-icon {
+  font-size: 13px;
+}
+
+.loc-sep {
+  margin: 0 4px;
+  opacity: 0.3;
+}
+
 @media only screen and (min-width: 600px) {
   .about-section {
     justify-content: center;
