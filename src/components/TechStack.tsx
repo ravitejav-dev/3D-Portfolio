@@ -5,40 +5,39 @@ const skillCategories = [
   {
     title: "Languages",
     color: "#64ffda",
-    skills: ["Python", "TypeScript", "JavaScript", "Java", "C++", "Go", "C#", "Rust", "Kotlin", "SQL"],
+    skills: ["Python", "TypeScript", "JavaScript", "C++", "Go", "C#", "SQL"],
   },
   {
     title: "AI & Machine Learning",
     color: "#bb86fc",
-    skills: ["LLM Evaluation", "Agentic AI", "PyTorch", "TensorFlow", "Machine Learning", "AI Reliability"],
+    skills: ["LLM Evaluation", "Agentic AI", "AI Safety", "Prompt Engineering", "PyTorch", "LangGraph", "RAG"],
   },
   {
     title: "Cloud & Infrastructure",
     color: "#ff9900",
-    skills: ["AWS", "Azure", "Docker", "Kubernetes", "Terraform", "CI/CD", "Pipeline Automation"],
+    skills: ["Google Cloud Storage", "Docker", "Kubernetes", "CI/CD", "AWS Lambda"],
   },
   {
     title: "Backend & Frontend",
     color: "#61dafb",
-    skills: ["React", "AngularJS", "Node.js", "REST APIs", "API Design", "System Design"],
+    skills: ["Angular", "React", "Node.js", "FastAPI", ".NET"],
   },
   {
     title: "Data & Tools",
     color: "#4fc3f7",
-    skills: ["SQL Server", "Git", "YAML", "Matplotlib", "Debugging", "Developer Tooling"],
+    skills: ["Playwright", "Promptfoo", "YAML", "Synthetic Data", "Data Pipelines"],
   },
   {
     title: "Practices",
     color: "#a5d6a7",
-    skills: ["Distributed Systems", "System Reliability", "Workflow Orchestration", "Backend Engineering"],
+    skills: ["Test Automation", "Human-in-the-Loop", "Adversarial Testing", "Prompt Injection Testing"],
   },
 ];
 
 const marqueeSkills = [
-  "Python", "TypeScript", "JavaScript", "Java", "C++", "Go", "Rust",
-  "AWS", "Docker", "Kubernetes", "React", "PyTorch", "TensorFlow",
-  "LLM Evaluation", "Agentic AI", "CI/CD", "Terraform", "SQL",
-  "API Design", "System Design", "Pipeline Automation", "Azure",
+  "Python", "TypeScript", "LLM Evaluation", "AI Safety", "Agentic AI",
+  "Playwright", "Docker", "Kubernetes", "React", "Angular", "PyTorch",
+  "LangGraph", "FastAPI", "Prompt Engineering", "CI/CD", "SQL",
 ];
 
 const TechStack = () => {

@@ -2,10 +2,10 @@ import { useEffect, useRef, useState } from "react";
 import "./styles/Stats.css";
 
 const stats = [
-  { value: 3.5, suffix: "+", label: "Years Experience", decimals: 1 },
-  { value: 80, suffix: "%", label: "Efficiency Gain", decimals: 0 },
-  { value: 10, suffix: "K+", label: "Records / Batch", decimals: 0 },
-  { value: 10, suffix: "", label: "Days Critical Fix", decimals: 0 },
+  { value: 3, suffix: "", label: "Years Experience (Approx.)", decimals: 0 },
+  { value: 40, suffix: "+", label: "LLM Edge Cases Found", decimals: 0 },
+  { value: 13, suffix: "", label: "Sandbox Apps Built", decimals: 0 },
+  { value: 70, suffix: "%", label: "Lower Sandbox Latency", decimals: 0 },
 ];
 
 const Stats = () => {

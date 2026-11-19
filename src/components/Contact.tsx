@@ -12,11 +12,11 @@ const Contact = () => {
             <span>dependable</span> together.
           </h2>
           <p className="contact-cta-sub">
-            Open to Software Engineer, AI platform, GenAI infrastructure, and backend engineering roles.
+            Open to AI Engineer roles in LLM evaluation, AI safety and agent testing.
           </p>
           <div className="contact-cta-actions">
             <a
-              href="mailto:tejareddi0011@gmail.com?subject=Let's%20Connect%20-%20Portfolio&body=Hi%20Raviteja%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20connect.%0A%0A"
+              href="mailto:ravitejavelanati11@gmail.com?subject=Let's%20Connect%20-%20Portfolio&body=Hi%20Raviteja%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20connect.%0A%0A"
               className="contact-button"
               data-cursor="disable"
             >
@@ -36,8 +36,8 @@ const Contact = () => {
         <div className="contact-quick">
           <div className="contact-quick-item">
             <FaEnvelope />
-            <a href="mailto:tejareddi0011@gmail.com" data-cursor="disable">
-              tejareddi0011@gmail.com
+            <a href="mailto:ravitejavelanati11@gmail.com" data-cursor="disable">
+              ravitejavelanati11@gmail.com
             </a>
           </div>
           <div className="contact-quick-item">
@@ -55,10 +55,10 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
-                href="mailto:tejareddi0011@gmail.com"
+                href="mailto:ravitejavelanati11@gmail.com"
                 data-cursor="disable"
               >
-                tejareddi0011@gmail.com
+                ravitejavelanati11@gmail.com
               </a>
             </p>
             <p>

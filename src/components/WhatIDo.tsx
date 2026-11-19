@@ -92,7 +92,7 @@ const WhatIDo = () => {
               <p>
                 Building reliable AI infrastructure—LLM evaluation frameworks,
                 synthetic data pipelines, and human-in-the-loop workflows that
-                ship dependable, high-signal AI systems at scale.
+                help test AI systems before deployment.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -126,18 +126,18 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
             <div className="what-content-in">
               <h3>BACKEND ENGINEERING</h3>
-              <h4>APIs, Services & Cloud Infrastructure</h4>
+              <h4>APIs, Services & Test Infrastructure</h4>
               <p>
-                Building production-grade backend services, APIs, and cloud
-                infrastructure on AWS and Azure—optimized for reliability,
-                performance, and scalability.
+                Building Python and C++ services, sandbox infrastructure, and
+                evaluation tooling with Docker and Kubernetes.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">TypeScript</div>
                 <div className="what-tags">Python</div>
-                <div className="what-tags">AWS</div>
-                <div className="what-tags">REST APIs</div>
+                <div className="what-tags">C++</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">Kubernetes</div>
                 <div className="what-tags">SQL</div>
                 <div className="what-tags">React</div>
                 <div className="what-tags">CI/CD</div>

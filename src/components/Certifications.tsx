@@ -2,36 +2,11 @@ import { useEffect, useRef } from "react";
 import "./styles/Certifications.css";
 
 const certifications = [
-  {
-    title: "Advanced Software Engineering",
-    issuer: "Walmart USA",
-    icon: "🏪",
-  },
-  {
-    title: "Software Development",
-    issuer: "Datacom",
-    icon: "💻",
-  },
-  {
-    title: "Pair Programming with AI",
-    issuer: "Professional Certificate",
-    icon: "🤖",
-  },
-  {
-    title: "Azure AI Essentials",
-    issuer: "Microsoft",
-    icon: "☁️",
-  },
-  {
-    title: "Professional Certificate",
-    issuer: "Microsoft & LinkedIn",
-    icon: "🏆",
-  },
-  {
-    title: "Gemini for Developers",
-    issuer: "Google",
-    icon: "✦",
-  },
+  { title: "Gemini for Developers", issuer: "Google", icon: "✨" },
+  { title: "Azure AI Essentials Professional Certificate", issuer: "Microsoft & LinkedIn", icon: "☁️" },
+  { title: "Pair Programming with AI", issuer: "Certificate", icon: "🤖" },
+  { title: "Advanced Software Engineering", issuer: "Walmart USA · Job Simulation", icon: "🏪" },
+  { title: "Software Development", issuer: "Datacom · Job Simulation", icon: "💻" },
 ];
 
 const Certifications = () => {

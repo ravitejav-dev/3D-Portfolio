@@ -6,7 +6,7 @@ const projects = [
     title: "Agentic AI Evaluation Platform",
     subtitle: "Multi-Agent Orchestration System",
     description:
-      "Production-style agentic AI platform that autonomously evaluates LLM outputs using planner, execution, and validation agents. Built-in retry logic, human-in-the-loop escalation, and deterministic evaluation focusing on correctness, consistency, and policy alignment.",
+      "Personal project: an agentic AI platform that evaluates LLM outputs using planner, execution, and validation agents. Built-in retry logic, human-in-the-loop escalation, and deterministic evaluation focused on correctness, consistency, and policy alignment.",
     tags: ["LLM Evaluation", "Multi-Agent", "Python", "Orchestration", "Guardrails"],
     highlight: "Reliability-First Architecture",
     color: "#bb86fc",
@@ -15,27 +15,27 @@ const projects = [
     title: "AI Developer Tooling Assistant",
     subtitle: "AI-Native Debugging & Validation Service",
     description:
-      "Backend service that assists engineers with config validation, debugging, and log analysis using structured AI reasoning. Produces deterministic structured outputs with error handling, confidence scoring, and API-first access.",
+      "Personal project: a backend service that helps with config validation, debugging, and log analysis using structured AI reasoning. Produces deterministic structured outputs with error handling, confidence scoring, and API-first access.",
     tags: ["TypeScript", "REST APIs", "AI Reasoning", "Config Validation", "CI/CD"],
     highlight: "Deterministic AI Outputs",
     color: "#64ffda",
   },
   {
-    title: "CrowdCompute Plugin System",
-    subtitle: "Scalable Data Annotation Platform",
+    title: "Side-by-Side Evaluation Tooling",
+    subtitle: "Human-in-the-Loop LLM Comparison",
     description:
-      "Built annotation templates and plugins for Google AI teams enabling high-quality human-labeled data collection. Designed task specs with validations, QC gates, and rubrics, improving label consistency across annotation cycles.",
-    tags: ["Google AI", "Data Pipelines", "YAML", "Quality Assurance", "Docker"],
-    highlight: "80% Faster Evaluation Setup",
+      "Configured Side-by-Side human rating interfaces across 19 custom plugin builds for multi-model LLM comparison and indirect prompt injection evaluation.",
+    tags: ["Human-in-the-Loop", "LLM Evaluation", "TypeScript", "Python", "Go"],
+    highlight: "19 Custom Plugin Builds",
     color: "#ff9900",
   },
   {
-    title: "Synthetic Data Pipeline Engine",
-    subtitle: "Automated Test Data Generation",
+    title: "Synthetic Data Framework",
+    subtitle: "Repeatable Agent Test Environments",
     description:
-      "Pipeline-generation scripts producing 1K–10K records/batch of synthetic evaluation data. Docker-containerized environments for Trust & Safety teams to run robustness, fairness, and edge-case tests at scale.",
-    tags: ["Pipeline Automation", "Docker", "Schema Validation", "Python", "Terraform"],
-    highlight: "10K+ Records Per Batch",
+      "Synthetic data seeding for 48 personas across 9 cloud services, with Playwright login automation and a Python QA suite confirming 100% numerical accuracy.",
+    tags: ["Synthetic Data", "Python", "Playwright", "QA Automation", "Test Environments"],
+    highlight: "48 Personas, 9 Services",
     color: "#4fc3f7",
   },
 ];
@@ -69,7 +69,7 @@ const Projects = () => {
           Featured <span>Projects</span>
         </h2>
         <p className="projects-sub">
-          Systems I've designed and shipped in production environments
+          Personal projects and evaluation systems I've built
         </p>
       </div>
       <div className="projects-grid">
