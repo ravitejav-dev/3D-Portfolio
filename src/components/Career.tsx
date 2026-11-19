@@ -16,7 +16,7 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Software Developer</h4>
-                <h5>GlobalLogic (Client: Google) · Santa Clara</h5>
+                <h5>GlobalLogic (Client: Google) · Remote</h5>
               </div>
               <h3>NOW</h3>
             </div>
